@@ -11,7 +11,7 @@ enum class Scene { Title, Game };
 int WINAPI WinMain(_In_ HINSTANCE, _In_opt_ HINSTANCE, _In_ LPSTR, _In_ int) {
 
 	// 1. エンジンの初期化
-	KamataEngine::Initialize(L"LE3C_26_ムラタ_トモキ");
+	KamataEngine::Initialize(L"LE4C_26_ムラタ_トモキ");
 
 	// 2. DirectX共通クラスの取得
 	DirectXCommon* dxCommon = DirectXCommon::GetInstance();
